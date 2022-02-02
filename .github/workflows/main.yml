@@ -43,8 +43,8 @@ jobs:
         uses: InformaticsMatters/trigger-ci-action@1.0.1
         with:
           ci-owner: Qiaoruiwu
-          ci-repository: flask-demo-kustomize
-          ci-ref: refs/heads/master
+          ci-repository: flask-demo-kustomize-1
+          ci-ref: refs/heads/main
           ci-user: Qiaoruiwu
           ci-user-token: ${{ secrets.CI_TOKEN }}
           ci-name: CI
